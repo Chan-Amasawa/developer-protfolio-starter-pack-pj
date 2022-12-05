@@ -1,0 +1,76 @@
+//sass-variable
+$secondary: #fbe850;
+$font-family-sans-serif: 'Prata', serif;
+$btn-border-radius: none;
+$btn-padding-x: 15px;
+$btn-padding-y: 10px;
+$dark: #0a0a0b;
+$danger: #2e3038;
+
+//custom-css
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-45{
+  width: 45%;
+}
+
+.p-left{
+  padding-left: 2.2rem !important;
+}
+
+.img-size{
+  width: 600px;
+  height: 350px;
+}
+
+.min-height{
+  min-height: 1000px;
+}
+
+.a-style{
+  color: white;
+  display: block;
+  text-decoration: none;
+  margin-top: 20px !important;
+}
+
+.text-size{
+  margin-right: 77px;
+}
+
+.section-three-size{
+  min-height: 380px; 
+}
+.section-four-size{
+  min-height: 350px; 
+}
+
+p, .font{
+  font-family: 'Inter', sans-serif;
+  font-size: small;
+}
+
+.footer-size{
+  min-height: 75px;
+}
+
+.footer-fs{
+  font-size: 1.25rem;
+}
+
+.w-9{
+  width: 9%;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;800&family=Prata&display=swap');
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
